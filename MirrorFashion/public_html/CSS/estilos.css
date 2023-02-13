@@ -13,11 +13,11 @@ header {
     height: 150px;
     margin-right: 20px;
     border-radius: 50%;
-    
+
 }
 .foto img {
     border-radius: 50%;
-  }
+}
 .info {
     overflow: auto;
 }
@@ -39,22 +39,22 @@ p {
 }
 .textbox1 {
     background-color: #170132;
-    width: 250px;
-    height: 500px;
     margin-top: 15px;
     padding: 15px;
     border-radius: 30px
-    
+
 }
 .textbox2 {
     background-color: #170132;
-    width: 250px;
-    height: 150px;
     margin-top: 15px;
     padding: 15px;
     border-radius: 30px
-    
-    
+}
+.textbox3 {
+    background-color: #170132;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 30px
 }
 .experience h2 {
     margin-top: 1px;
@@ -72,46 +72,25 @@ p {
     margin-top: 1px;
     color: #ffffff;
 }
-.education {
-    margin-top: 40px;
-}
-.education h2 {
-    margin-bottom: 20px;
-}
-.education .course {
-    margin-bottom: 20px;
-}
-.education .course h3 {
-    margin-bottom: 5px;
-}
-.education .course p {
-    margin-bottom: 5px;
-}
-.skills {
-    margin-top: 40px;
-}
-.skills h2 {
-    margin-bottom: 20px;
-}
-.skills p {
-    margin-bottom: 5px;
-}
-.languages {
-    margin-top: 40px;
-}
-.languages h2 {
-    margin-bottom: 20px;
-}
-.languages p {
-    margin-bottom: 5px;
+.experience ul {
+    margin-top: 1px;
+    color: #ffffff;
 }
 
-a[href*="https://github.com"] {
-    background:url(https://github.com/favicon.ico) no-repeat left center;
-    padding-left: 35px;
-    }
+table {
+    background-color: #170132;
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
 
-a[href*="https://linkedin.com/in/nome-completo"] {
-    background:url(https://linkedin.com/favicon.ico) no-repeat left center;
-    padding-left: 35px;
-    }
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    color: #ffffff;
+    padding: 8px;
+}
+
+th {
+    background-color: #170132;
+}
